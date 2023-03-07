@@ -14,23 +14,25 @@
     <!-- Compiled css link -->
     <link rel="stylesheet" href="./dist/output.css">
     <title>Frontend Mentor | Easybank landing page</title>
-    
   </head>
   <body>
     <header>
-      <div>
-        <img src="./images/logo.svg" alt="" />
+      <div class="flex justify-between">
+        <div>
+          <img src="./images/logo.svg" alt="" />
+        </div>
+        <nav class="hidden">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <button class="hidden">Request Invite</button>
+        <button class="" id="mobile-menu"><img src="./images/icon-hamburger.svg" alt="" id="hamburger-img"></button>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Careers</a></li>
-        </ul>
-      </nav>
-      <button>Request Invite</button>
     </header>
     <section>
       <div>
@@ -39,7 +41,7 @@
             media="(min-width: 47.375rem)"
             srcset="./images/bg-intro-desktop.svg"
           />
-          <img src="./images/bg-intro-mobile.svg" alt="" />
+          <img src="./images/bg-intro-mobile.svg" alt="" class="w-full"/>
         </picture>
         <img src="./images/image-mockups.png" alt="" />
       </div>

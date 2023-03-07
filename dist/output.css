@@ -515,6 +515,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex{
+  display: flex;
+}
+
+.hidden{
+  display: none;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
 .bg-darkBlue{
   --tw-bg-opacity: 1;
   background-color: hsl(233 26% 24% / var(--tw-bg-opacity));
@@ -523,6 +539,10 @@ video {
 body {
   font-family: 'Public Sans', sans-serif;
   font-weight: 300;
+}
+
+img{
+  max-width: 100%;
 }
 
 .attribution {
