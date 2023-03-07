@@ -16,29 +16,29 @@
     <title>Frontend Mentor | Easybank landing page</title>
   </head>
   <body>
-    <header>
-      <div class="flex justify-between">
+    <header class="bg-lightWhite fixed top-0 right-0 left-0 py-5 px-8">
+      <div class="flex justify-between max-w-6xl mx-auto items-center">
         <div>
           <img src="./images/logo.svg" alt="" />
         </div>
-        <nav class="hidden">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Careers</a></li>
+        <nav class="hidden lg:flex">
+          <ul class="flex justify-between gap-8 text-slate-500 ">
+            <li class="transition-colors duration-500 ease-in-out hover:text-slate-900"><a href="#" >Home</a></li>
+            <li class="transition-colors duration-500 ease-in-out hover:text-slate-900"><a href="#">About</a></li>
+            <li class="transition-colors duration-500 ease-in-out hover:text-slate-900"><a href="#">Contact</a></li>
+            <li class="transition-colors duration-500 ease-in-out hover:text-slate-900"><a href="#">Blog</a></li>
+            <li class="transition-colors duration-500 ease-in-out hover:text-slate-900"><a href="#">Careers</a></li>
           </ul>
         </nav>
-        <button class="hidden">Request Invite</button>
-        <button class="" id="mobile-menu"><img src="./images/icon-hamburger.svg" alt="" id="hamburger-img"></button>
+        <button class="btn hidden lg:block">Request Invite</button>
+        <button class="lg:hidden" id="mobile-menu"><img src="./images/icon-hamburger.svg" alt="" id="hamburger-img"></button>
       </div>
     </header>
     <section>
       <div>
         <picture>
           <source
-            media="(min-width: 47.375rem)"
+            media="(min-width: 64rem)"
             srcset="./images/bg-intro-desktop.svg"
           />
           <img src="./images/bg-intro-mobile.svg" alt="" class="w-full"/>
@@ -52,7 +52,7 @@
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
         </p>
-        <button>Request Invite</button>
+        <button class="btn">Request Invite</button>
       </div>
     </section>
     <main>
@@ -180,7 +180,7 @@
             <li><a href="#">Privacy Policy</a></li>
           </ul>
         </nav>
-        <button>Request Invite</button>
+        <button class="btn">Request Invite</button>
       </div>
       <p>© Easybank. All Rights Reserved</p>
     </footer>
