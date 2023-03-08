@@ -5,13 +5,14 @@
 @tailwind utilities;
 
 .btn {
-  @apply bg-gradient-to-r from-lightGreen to-lightCyan rounded-full py-3 px-4 text-lightWhite transition-opacity duration-500 ease-in-out hover:opacity-75
+  @apply bg-gradient-to-r from-lightGreen to-lightCyan rounded-full py-3 px-6 text-lightWhite transition-opacity duration-500 ease-in-out hover:opacity-75
 }
 
 body {
   font-family: 'Public Sans', sans-serif;
   font-weight: 300;
   background-color: hsl(0, 0%, 98%);
+  overflow-x: hidden;
 }
 img{
   max-width: 100%;
