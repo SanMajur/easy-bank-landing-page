@@ -21,6 +21,9 @@ module.exports = {
         'lightGray': 'hsl(0, 0%, 98%)',
         'lightWhite': 'hsl(0, 0%, 100%)'
       },
+      spacing: {
+        '23rem': '23rem',
+      },
     },
   },
   plugins: [],
