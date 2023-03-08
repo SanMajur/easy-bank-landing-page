@@ -515,6 +515,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.-top-20{
+  top: -5rem;
+}
+
+.-z-10{
+  z-index: -10;
+}
+
 .flex{
   display: flex;
 }
@@ -534,6 +550,21 @@ video {
 .bg-darkBlue{
   --tw-bg-opacity: 1;
   background-color: hsl(233 26% 24% / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 body {
