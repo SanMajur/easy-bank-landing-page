@@ -17,6 +17,26 @@ body {
 img{
   max-width: 100%;
 }
+nav{
+  @apply absolute -left-full transition-colors duration-300 ease-in-out lg:left-0 lg:relative
+}
+nav.open{
+  @apply absolute top-20 left-auto bg-white w-11/12 p-8 rounded-lg z-50 lg:relative lg:top-0 lg:left-0 lg:bg-transparent lg:w-auto lg:rounded-none lg:p-0;
+  box-shadow: -27px 102px 150px 44px rgba(0,0,0,0.79);
+}
+@media (min-width: 1024px) {
+  nav.open{
+    box-shadow: none;
+  }
+  
+}
+nav ul{
+  @apply flex flex-col justify-between items-center gap-6  text-slate-500 lg:flex-row lg:gap-8;
+}
+
+nav ul li a{
+  @apply lg:text-slate-900 lg:opacity-50 lg:text-sm hover:opacity-100;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
