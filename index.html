@@ -17,7 +17,7 @@
   </head>
   <body>
     <header class="bg-lightWhite py-5 px-6 fixed top-0 right-0 left-0 lg:px-0 z-50 shadow shadow-gray-200">
-      <div class="flex justify-between items-center max-w-5xl mx-auto lg:px-10 container">
+      <div class="flex justify-between items-center max-w-6xl mx-auto lg:px-10 container">
         <div>
           <img src="./images/logo.svg" alt="" />
         </div>
@@ -34,20 +34,20 @@
         <button class="lg:hidden transition-all duration-300" id="mobile-menu"><img src="./images/icon-hamburger.svg" alt="" id="hamburger-img"></button>
       </div>
     </header>
-    <section>
-      <div class="relative md:order-2 top-2 lg:-top-44 lg:-right-16">
+    <section class="flex flex-col items-center md:flex-row md:mt-16 ">
+      <div class="relative top-2 w-full md:order-2  md:-top-2 md:-right-12 lg:-top-28 lg:-right-12 lg:w-auto">
         <picture>
           <source
-            media="(min-width: 64rem)"
+            media="(min-width: 48rem)"
             srcset="./images/bg-intro-desktop.svg"
           />
           <img src="./images/bg-intro-mobile.svg" alt="" class="w-full"/>
         </picture>
-        <img src="./images/image-mockups.png" alt="" class="absolute -top-20 lg:top-16 lg:w-4/5 lg:-right-4" />
+        <img src="./images/image-mockups.png" alt="" class="absolute -top-20 md:-top-32 md:-right-16 md:w-[90%] lg:top-12 lg:w-4/5 lg:-right-11" />
       </div>
-      <div class="text-center px-6 -mt-6">
-        <h1 class="text-darkBlue text-4xl mb-6 font-medium">Next generation digital banking</h1>
-        <p class="text-slate-400 mb-10 text-sm">
+      <div class="text-center px-6 -mt-6 md:order-1 md:max-w-xs md:pt-8 md:ml-4 md:text-left lg:ml-16 lg:max-w-2xl">
+        <h1 class="text-darkBlue text-4xl mb-6 font-medium lg:text-5xl">Next generation digital banking</h1>
+        <p class="text-slate-400 mb-10 text-base">
           Take your financial life online. Your Easybank account will be a
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
