@@ -37,10 +37,3 @@ nav ul{
 nav ul li a{
   @apply lg:text-slate-900 lg:opacity-50 lg:text-sm hover:opacity-100;
 }
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
