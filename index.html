@@ -30,32 +30,33 @@
             <li><a href="#">Careers</a></li>
           </ul>
         </nav>
-        <button class="btn hidden lg:block">Request Invite</button>
-        <button class="lg:hidden transition-all duration-300" id="mobile-menu"><img src="./images/icon-hamburger.svg" alt="" id="hamburger-img"></button>
+        <button class="btn hidden lg:block" xv>Request Invite</button>
+        <button class="lg:hidden transition-all duration-300" id="mobile-menu"  aria-label="hamburger menu"><img src="./images/icon-hamburger.svg" alt="" id="hamburger-img"></button>
       </div>
     </header>
-    <section class="flex flex-col items-center md:flex-row md:mt-16">
-      <div class="relative top-2 w-full md:order-2  md:-top-2 md:-right-12 lg:-top-28 lg:-right-12 lg:w-auto">
-        <picture>
-          <source
-            media="(min-width: 48rem)"
-            srcset="./images/bg-intro-desktop.svg"
-          />
-          <img src="./images/bg-intro-mobile.svg" alt="" class="w-full"/>
-        </picture>
-        <img src="./images/image-mockups.png" alt="" class="absolute -top-20 md:-top-32 md:-right-16 md:w-[90%] lg:top-12 lg:w-4/5 lg:-right-11" />
-      </div>
-      <div class="text-center pr-6 pl-12 -mt-6 md:order-1 md:max-w-sm md:pt-8 md:text-left lg:ml-12 lg:pl-24 lg:max-w-xl">
-        <h1 class="text-darkBlue text-4xl mb-6 font-medium lg:text-5xl lg:font-semibold">Next generation digital banking</h1>
-        <p class="text-slate-400 mb-10 text-base">
-          Take your financial life online. Your Easybank account will be a
-          one-stop-shop for spending, saving, budgeting, investing, and much
-          more.
-        </p>
-        <button class="btn mb-8">Request Invite</button>
-      </div>
-    </section>
+  
     <main class="lg:-mt-8">
+      <section class="flex flex-col items-center md:flex-row md:mt-16">
+        <div class="relative top-2 w-full md:order-2  md:-top-2 md:-right-12 lg:-top-28 lg:-right-12 lg:w-auto">
+          <picture>
+            <source
+              media="(min-width: 48rem)"
+              srcset="./images/bg-intro-desktop.svg"
+            />
+            <img src="./images/bg-intro-mobile.svg" alt="" class="w-full"/>
+          </picture>
+          <img src="./images/image-mockups.png" alt="" class="absolute -top-20 md:-top-32 md:-right-16 md:w-[90%] lg:top-12 lg:w-4/5 lg:-right-11" />
+        </div>
+        <div class="text-center pr-6 pl-12 -mt-6 md:order-1 md:max-w-sm md:pt-8 md:text-left lg:ml-12 lg:pl-24 lg:max-w-xl">
+          <h1 class="text-darkBlue text-4xl mb-6 font-medium lg:text-5xl lg:font-semibold">Next generation digital banking</h1>
+          <p class="text-slate-400 mb-10 text-base">
+            Take your financial life online. Your Easybank account will be a
+            one-stop-shop for spending, saving, budgeting, investing, and much
+            more.
+          </p>
+          <button class="btn mb-8" aria-label="invite link">Request Invite</button>
+        </div>
+      </section>
       <section class="bg-lightGrayishBlue mb-10">
        <div class="container lg:pl-12">
         <div class="text-center px-6 mb-4 py-9 md:text-left">
@@ -160,19 +161,19 @@
           <img src="./images/lightlogo.svg" alt="" />
           <ul class="flex justify-between gap-4">
             <li>
-              <button href="#"><img src="./images/icon-facebook.svg" alt="" /></button>
+              <button aria-label="facebook icon"><img src="./images/icon-facebook.svg" alt="" /></button>
             </li>
             <li>
-              <button href="#"><img src="./images/icon-instagram.svg" alt="" /></button>
+              <button aria-label="unstagram icon"><img src="./images/icon-instagram.svg" alt="" /></button>
             </li>
             <li>
-              <button href="#"><img src="./images/icon-twitter.svg" alt="" /></button>           
+              <button aria-label="twitter icon"><img src="./images/icon-twitter.svg" alt="" /></button>           
             </li>
             <li>
-              <button href="#"><img src="./images/icon-pinterest.svg" alt="" /></button>
+              <button aria-label="pintrest icon"><img src="./images/icon-pinterest.svg" alt="" /></button>
             </li>
             <li>
-              <button href="#"><img src="./images/icon-instagram.svg" alt="" /></button>
+              <button aria-label="youtube icon"><img src="./images/icon-youtube.svg" alt="" /></button>
             </li>
           </ul>
         </div>
